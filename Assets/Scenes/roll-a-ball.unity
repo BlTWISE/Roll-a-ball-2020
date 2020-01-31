@@ -294,7 +294,7 @@ GameObject:
   - component: {fileID: 636737667}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: plyr
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1552,6 +1552,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 116685780}
     m_Modifications:
+    - target: {fileID: 1294830262509461459, guid: 09d3f582afb4ee64f854ff15d8445b2d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1294830262509461460, guid: 09d3f582afb4ee64f854ff15d8445b2d,
         type: 3}
       propertyPath: m_Name

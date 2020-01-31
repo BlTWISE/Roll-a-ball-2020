@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Pick Up
   - Wall
+  - plyr
   layers:
   - Default
   - TransparentFX
