@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 1294830262509461458}
   - component: {fileID: 1294830262509461459}
   - component: {fileID: -7853794071051689850}
+  - component: {fileID: 452364194507732788}
+  - component: {fileID: 1567911948969386730}
   m_Layer: 0
   m_Name: Pick Up
   m_TagString: Pick Up
@@ -122,3 +124,36 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!143 &452364194507732788
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1294830262509461460}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Height: 1.0000002
+  m_Radius: 0.5000002
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1567911948969386730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1294830262509461460}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c7914fd22a5dc744927cca5930a574c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  directionChangeInterval: 1
+  maxHeadingChange: 360
